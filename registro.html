@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro</title>
+	<style type="text/css">
+		.tg  {border-collapse:collapse;border-spacing:0;}
+		.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+		.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+		.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+		</style>
+</head>
+<body>
+	<!--  -->
+
+		<table style="
+    background-color: #FFEB3B;
+    color: #e00c0c;
+			" >
+		  <tr>
+			<td class="tg-8jvv">TIPO DE DOCUMENTO</td>
+			<td class="tg-zd5i"><select><option>Seleccione ...........</option><option>DNI</option><option>PASAPORTE</option></select></td>
+		  </tr>
+		  <tr>
+			<td class="tg-0pky">DNI / PASAPORTE</td>
+			<td class="tg-zd5i"><input name="type_document"  type="text"/></td>
+		  </tr>
+		  <tr>
+			<td class="tg-0pky">PAIS</td>
+			<td class="tg-zd5i"><select name="country"><option>Seleccione ...........</option><option>LIMA</option></select></td>
+		  </tr>
+		  <tr>
+			<td class="tg-0pky">PROVINCIA</td>
+			<td class="tg-zd5i"><select name="province"><option>Seleccione ...........</option><option>LIMA</option></select></td>
+		  </tr>
+		  <tr>
+			<td class="tg-0pky">CIUDAD</td>
+			<td class="tg-zd5i"><select name="city"><option>Seleccione ...........</option><option>VILLA EL SALVADOR</option><option>LA MOLINA</option></select></td>
+		  </tr>
+		  <tr>
+			<td class="tg-0pky">APELLIDO PATERNO</td>
+			<td class="tg-zd5i"><input name="last_name" type="text"/></td>
+		  </tr>
+		  <tr>
+			<td class="tg-0pky">APELLIDO MATERNO</td>
+			<td class="tg-zd5i"><input name="surname" type="text"/></td>
+		  </tr>
+		  <tr>
+			<td class="tg-0pky">NOMBRES</td>
+			<td class="tg-zd5i"><input name="name" type="text" /></td>
+		  </tr>
+		  <tr>
+			<td class="tg-0pky">FECHA DE NACIMIENTO</td>
+			<td class="tg-zd5i"><input name="birthdate" type="text"/></td>
+		  </tr>
+		  <tr>
+			<td class="tg-0pky">EDAD</td>
+			<td class="tg-zd5i"><input name="age" type="text"/></td>
+		  </tr>
+		  <tr>
+			<td class="tg-0pky">SEXO</td>
+			<td class="tg-zd5i"> <input type="radio" name="gender[]" value="M" /> MASCULINO <input type="radio" name="gender[]" value="F"/> FEMENINO </td>
+		  </tr>
+		  <tr>
+			<td class="tg-0pky">TIPO DE SANGRE</td>
+			<td class="tg-zd5i"><select name="blood_type"><option>Seleccione ...........</option></select></td>
+		  </tr>
+		  <tr>
+			<td class="tg-0pky">ESTADO CIVIL</td>
+			<td class="tg-zd5i"><select name="civil_status"><option>Seleccione ...........</option></select></td>
+		  </tr>
+		  <tr>
+			<td class="tg-0pky">TIPO DE DISCAPACIDAD</td>
+			<td class="tg-zd5i"><select name="disability"><option>Seleccione ...........</option></select></td>
+		  </tr>
+		  <tr>
+			<td class="tg-0pky">ACEPTO CONDICIONES DE USO</td>
+			<td class="tg-zd5i"><input name="conditional" type="checkbox" value="1"/></td>
+		  </tr>
+		  <tr>
+			<td class="tg-0pky"><input name="save" type="button" value="Guardar" /></td>
+			<td class="tg-zd5i"><input name="restore" type="button" value="Restablecer" /></td>
+		  </tr>
+		</table>
+</body>
+</html>
