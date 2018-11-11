@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo3 Caja de texto</title>
+	<script type="text/javascript">
+		function copiarTexto(){
+			<!--
+			document.frmTex.txtTex2.value=document.frmTex.txtTex1.value
+			document.frmTex.txtTex1.focus()
+			document.frmTex.txtTex1.select()
+		    -->
+		}
+	</script>
+</head>
+<body>
+	<h2>Manejo de objeto text de un form</h2>
+	<form name=frmTex action="">
+		<label> Ingresa texto en primera caja y pulsa el botón...</label>
+		<input type="text" name="txtTex1" size =20>
+		<input type="text" name="txtTex2" size =20>
+		<br><br>
+		<input type="button" name="btnPul" value="Pulsar" onclick="copiarTexto()">
+	</form>	
+</body>
+</html>

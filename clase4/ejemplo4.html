@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript condicion simple</title>
+
+</head>
+<body>
+	<h1 id="encabezado1"> Ejemplo de condición simple</h1>
+	<br>
+	<input type="button" name="btnSal" value="Mensaje" onclick="verMensaje()" />
+
+	<script type="text/javascript">
+		/* el valor define el tipo de la variable*/
+		nom=prompt("Ingresa tu nombre")
+		sue =prompt("Ingresa tu sueldo")
+		//Define mensaje a mostrar
+		function verMensaje(){
+			if(sue>4150){
+				encabezado1.style.color="blue"
+				alert(nom+" tu sueldo es mayor a 1 UIT 2018")
+			}else{
+				encabezado1.style.color="red"	
+				alert(nom+" tu sueldo es menor a 1 UIT 2018")
+			}
+	    }
+	</script>
+</body>
+</html>
