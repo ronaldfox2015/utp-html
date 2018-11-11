@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+
+</head>
+<body>
+		<h2 id="encabezado2" >Manejo de objeto text de un form</h2>
+
+<form name="login">
+
+	<div>
+		<label>Nombre</label>
+	</div>
+	<div>
+		<input type="text" name="nombre">	
+	</div>
+	<div>
+		<label>Edad</label>
+	</div>
+	<div>
+		<input type="text" name="edad">
+	</div>
+	<div>
+		<button id="save" name="save"  >procesar</button>
+	</div>
+</form>
+	<script type="text/javascript">
+	// Función externa
+	function muestraMensaje() {
+	  			document.frmTex.edad.value=document.frmTex.nombre.value
+			document.frmTex.nombre.focus()
+			document.frmTex.nombre.select()
+			encabezado2.style.color = "red"
+	}
+	 
+	// Asignar la función externa al elemento
+	document.getElementById("save").onclick = muestraMensaje;
+
+	</script>
+</body>
+</html>
