@@ -1,4 +1,5 @@
 <?php
+// para probar el codigo puede ingresar a la siguente web http://phptester.net/
 $mes = [
 	"Enero","Febrero","Marzo","Mayo","Junio","Julio","Agosto","Setiembre","Optubre","Nobiembre","Diciembre"
 ];
